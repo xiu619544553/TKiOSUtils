@@ -1,0 +1,16 @@
+PODS:
+  - TKiOSUtils (0.1.0)
+
+DEPENDENCIES:
+  - TKiOSUtils (from `../`)
+
+EXTERNAL SOURCES:
+  TKiOSUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TKiOSUtils: a9a4689cb29e78850964fa6b62f43d4467fe10fb
+
+PODFILE CHECKSUM: b20f6b681adbe24990a7defb1599d85666356c77
+
+COCOAPODS: 1.11.2

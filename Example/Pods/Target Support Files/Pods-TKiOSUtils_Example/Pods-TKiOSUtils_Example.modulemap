@@ -1,0 +1,6 @@
+framework module Pods_TKiOSUtils_Example {
+  umbrella header "Pods-TKiOSUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

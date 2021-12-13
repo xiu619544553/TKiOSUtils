@@ -1,0 +1,6 @@
+framework module Pods_TKiOSUtils_Tests {
+  umbrella header "Pods-TKiOSUtils_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

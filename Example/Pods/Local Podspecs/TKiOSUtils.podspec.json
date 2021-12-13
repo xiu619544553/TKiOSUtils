@@ -1,0 +1,22 @@
+{
+  "name": "TKiOSUtils",
+  "version": "0.1.0",
+  "summary": "A short description of TKiOSUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hanxiuhui/TKiOSUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hanxiuhui": "hanxiuhui@offcn.com"
+  },
+  "source": {
+    "git": "https://github.com/hanxiuhui/TKiOSUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TKiOSUtils/Classes/**/*"
+}

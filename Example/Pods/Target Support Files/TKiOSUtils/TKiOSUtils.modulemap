@@ -1,0 +1,6 @@
+framework module TKiOSUtils {
+  umbrella header "TKiOSUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
