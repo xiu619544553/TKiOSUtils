@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (TKAdd)
 
+/// 视图或者其父视图所在的控制器，有可能为 nil
+@property (nullable, nonatomic, readonly) UIViewController *viewController;
+
 @end
 
 

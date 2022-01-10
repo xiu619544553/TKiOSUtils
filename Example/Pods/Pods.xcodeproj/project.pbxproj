@@ -7,77 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05901CD4AD471C8B003A700651F74D64 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B6C8D3F83EC327B18AB3DD842AA466 /* ReplaceMe.m */; };
+		04A208C9498F4D06D22B905B1454F261 /* NSObject+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F34451EBC82167E482E9B2694D6A4B3 /* NSObject+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA1A9FFA5ADFEC17C9894E281BB2788 /* UIButton+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4AB119096113F90E1C9633F2108E4B /* UIButton+TKAdd.m */; };
 		332DE4C7DE312A0D93C3ED9E6660D207 /* Pods-TKiOSUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A51FC9E0B4468C4FB50CD483ABFB025 /* Pods-TKiOSUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B16C6D2C609CA3931CD8793438B763 /* TKInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8A23685C090CE76817571F56674A6F /* TKInputView.m */; };
+		3A498E46AD8E302239B9D0C7A3E982E4 /* NSDate+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB626A601BB62BA4EED1D8BE95AF22F /* NSDate+TKAdd.m */; };
 		3DD4DE02775B2FD3025B367ACDD721F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4F293C20E514D2DA0E4FD3C70B7F88E9 /* UIImage+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C376385A4A4D9014801AE66D454ED557 /* UIImage+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51BF4541CE3F2FD8FADFD936FEAC7ADC /* UIColor+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B71FC72A08FDECDDBC45B54F3B3AEF /* UIColor+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51DF290D6645209BBCFEEEEC60FE1D66 /* Pods-TKiOSUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78ECFD85A1A7825B1D1A418073B5528 /* Pods-TKiOSUtils_Tests-dummy.m */; };
+		553365AF9B85406D8F7483EB0F7B4188 /* TKiOSUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 771C5BE7FFE607A5491B58A3BF6EA458 /* TKiOSUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57728771C84AC2374AFC7B8ED9448239 /* TKUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = A27CD60FF0048D6B104A61B04EAFB6FE /* TKUnicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66C5BCD7A233BDD927AC80CC15E4250F /* UIView+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 272580DC99938D9E02681941020235F9 /* UIView+TKAdd.m */; };
+		674E56850A2FCDBD21F5A89B74D89E56 /* UIViewController+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 880E8B7F4954EABA27CDE843DA3C7A76 /* UIViewController+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68E3129D5DCFB3EC0BF885A8FADB160F /* Pods-TKiOSUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB294E0FC2A8B73685749CECCE14CA9 /* Pods-TKiOSUtils_Example-dummy.m */; };
-		722AA62C7D35744D206EECD1BD9938FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9B49C56E363B6FEBF72C88FC129860F1 /* TKiOSUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4789EDDFE435575070499E3B0A1461 /* TKiOSUtils-dummy.m */; };
+		73C81067396F376F51E57149C67D2A58 /* NSDate+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 53AC19C64EEA6E315B450FFA016C898A /* NSDate+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75652597C41F33400D42581651B25354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7908DEBA03A7643D71AC7E9471A2978E /* TKHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7968B69099B3A887ED7AFC4AB1F7E0F5 /* TKHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FACAF0EF467447CE4EFF40976B01758 /* TKInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DEDED4530769269369923A2B154E01 /* TKInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0627918F761015BA5D44D0F3FBD91B /* UIColor+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2BF851CD8744D80013A6DA57229FB /* UIColor+TKAdd.m */; };
+		9510584C2A02253E43769A0EF688F451 /* NSString+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5950924B2F325C9F9F08D91B6A6E1080 /* NSString+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CD1C82A1980A74366D7797F0AFEB955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AB6BF7E25629070CB40865155D15274A /* TKiOSUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C9D6F373AAA34E75A983379851AE08 /* TKiOSUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A880191A5D242AC487221E8D5702CEE8 /* NSObject+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0F4F16FD631FDB18F5D223719E18FA /* NSObject+TKAdd.m */; };
+		B90EBABD853AD4B1AAE31D1E90893624 /* NSString+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF0BF0FB6710921006835456A572525 /* NSString+TKAdd.m */; };
+		B936E6545355DE0AFB734ABF9FC2BBAE /* UIButton+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 12948852F276CF35D4F364F693E57E0E /* UIButton+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5EC515D8789B76A5CAF14E262510394 /* UIView+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7ABDC6869D0506AC037B438234E956 /* UIView+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D37C09E5055E9310ABCB11B79A9F2C50 /* Pods-TKiOSUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EF688427FFAB53284AAB9C25B30C68 /* Pods-TKiOSUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA127194FE2F4EB3DDE06D856D29DB1 /* TKUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C349723E517963CB48A217E19EB32A3 /* TKUnicode.m */; };
+		E2AB5B01C088B88C014D2A9FF04DF1D0 /* UIViewController+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF29180342A87163A3EB51FD86E0DF /* UIViewController+TKAdd.m */; };
+		F6C4057846D2949FE3AF763D168DFFB9 /* TKiOSUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7EB6EADF7DDEF8517A2F1729D2157C /* TKiOSUtils-dummy.m */; };
+		F940F0FFA6D3A004D6BE137414DDFB12 /* UIImage+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF4AC09E869A00356D2A6F6CF1A6A /* UIImage+TKAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4043062C43256D51D1DF844E6947C9C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE203622D0320240F23B5796FEF26634;
-			remoteInfo = "Pods-TKiOSUtils_Example";
-		};
-		9EF5932029F046E430CC10DAE44ACF61 /* PBXContainerItemProxy */ = {
+		3DE479317A9AB5C3F59220E0FD9B866F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ECEE479CA9FE763DF2F02323B7AAFE5F;
 			remoteInfo = TKiOSUtils;
 		};
+		B28D3C212C537D9C4E15D5DE4FB778F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE203622D0320240F23B5796FEF26634;
+			remoteInfo = "Pods-TKiOSUtils_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00E4589D878F8E09376C7B30B2BEC205 /* Pods-TKiOSUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKiOSUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		0A7ABDC6869D0506AC037B438234E956 /* UIView+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TKAdd.h"; sourceTree = "<group>"; };
+		0B7EB6EADF7DDEF8517A2F1729D2157C /* TKiOSUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKiOSUtils-dummy.m"; sourceTree = "<group>"; };
 		10B270C865D22804D8D5B85F379FF903 /* Pods-TKiOSUtils_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TKiOSUtils_Example"; path = Pods_TKiOSUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1838976A7A8A7C9C324627F4254C51EA /* TKiOSUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKiOSUtils.modulemap; sourceTree = "<group>"; };
+		122B12278A7F1E3ACA2B2CCDBA74474B /* TKiOSUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKiOSUtils.release.xcconfig; sourceTree = "<group>"; };
+		12948852F276CF35D4F364F693E57E0E /* UIButton+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+TKAdd.h"; sourceTree = "<group>"; };
 		1A51FC9E0B4468C4FB50CD483ABFB025 /* Pods-TKiOSUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKiOSUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		243D711984BAD1B68B171B85A0734ECF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1F34451EBC82167E482E9B2694D6A4B3 /* NSObject+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TKAdd.h"; sourceTree = "<group>"; };
+		24C2BF851CD8744D80013A6DA57229FB /* UIColor+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TKAdd.m"; sourceTree = "<group>"; };
+		272580DC99938D9E02681941020235F9 /* UIView+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKAdd.m"; sourceTree = "<group>"; };
 		2DB294E0FC2A8B73685749CECCE14CA9 /* Pods-TKiOSUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKiOSUtils_Example-dummy.m"; sourceTree = "<group>"; };
 		3223C3259955690B7D6BF5DA90AEA88A /* Pods-TKiOSUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKiOSUtils_Example.modulemap"; sourceTree = "<group>"; };
-		3F4789EDDFE435575070499E3B0A1461 /* TKiOSUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKiOSUtils-dummy.m"; sourceTree = "<group>"; };
+		500419B9A35468B55D724941332A250B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		51B1144A4AAF6431ACE273631A3FEF06 /* Pods-TKiOSUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKiOSUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		51EF688427FFAB53284AAB9C25B30C68 /* Pods-TKiOSUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKiOSUtils_Example-umbrella.h"; sourceTree = "<group>"; };
+		53AC19C64EEA6E315B450FFA016C898A /* NSDate+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKAdd.h"; sourceTree = "<group>"; };
 		56F704D40453204B4C502C22564CD23B /* Pods-TKiOSUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKiOSUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5950924B2F325C9F9F08D91B6A6E1080 /* NSString+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TKAdd.h"; sourceTree = "<group>"; };
+		5E9DFF3FABEA7C7FF4D3D20DDEA14F1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		60FCA9953A50D73A24A7647B20F81EB7 /* Pods-TKiOSUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKiOSUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		752FB5BE4284D2936E782B8A60D86296 /* TKiOSUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKiOSUtils; path = TKiOSUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AEBC7551D7BB1A2F08A93351D8F6E35 /* TKiOSUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKiOSUtils.release.xcconfig; sourceTree = "<group>"; };
-		8CC9E3BA6092E05061A17AA63E59E026 /* TKiOSUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKiOSUtils-Info.plist"; sourceTree = "<group>"; };
+		771C5BE7FFE607A5491B58A3BF6EA458 /* TKiOSUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKiOSUtils-umbrella.h"; sourceTree = "<group>"; };
+		77EBD2CA5C2CAAD9FAA54A758E459954 /* TKiOSUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKiOSUtils.debug.xcconfig; sourceTree = "<group>"; };
+		7968B69099B3A887ED7AFC4AB1F7E0F5 /* TKHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKHeader.h; path = TKiOSUtils/Classes/TKHeader.h; sourceTree = "<group>"; };
+		7FB626A601BB62BA4EED1D8BE95AF22F /* NSDate+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKAdd.m"; sourceTree = "<group>"; };
+		880E8B7F4954EABA27CDE843DA3C7A76 /* UIViewController+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TKAdd.h"; sourceTree = "<group>"; };
+		8C349723E517963CB48A217E19EB32A3 /* TKUnicode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKUnicode.m; sourceTree = "<group>"; };
+		913DF6C9EA99093CF29E29314986124D /* TKiOSUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKiOSUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8CD581C9E6F7D10C176AA24D19BFA1 /* Pods-TKiOSUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKiOSUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A4A7B74610789C8E0CAAA79589E094F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A662D89587EB788F757A06C52FFEE489 /* TKiOSUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKiOSUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A27CD60FF0048D6B104A61B04EAFB6FE /* TKUnicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKUnicode.h; sourceTree = "<group>"; };
+		A4C4025D11AC3DD249030EFFBF971BD3 /* TKiOSUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKiOSUtils.modulemap; sourceTree = "<group>"; };
+		ABF0BF0FB6710921006835456A572525 /* NSString+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TKAdd.m"; sourceTree = "<group>"; };
+		B8B71FC72A08FDECDDBC45B54F3B3AEF /* UIColor+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+TKAdd.h"; sourceTree = "<group>"; };
 		BA4082ACEFD5E82EC76CB86A38A8A03F /* Pods-TKiOSUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKiOSUtils_Tests-Info.plist"; sourceTree = "<group>"; };
+		BB0FF4AC09E869A00356D2A6F6CF1A6A /* UIImage+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TKAdd.m"; sourceTree = "<group>"; };
 		BD9993ACBD08360F716CBA60A40E4562 /* Pods-TKiOSUtils_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TKiOSUtils_Tests"; path = Pods_TKiOSUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DEDED4530769269369923A2B154E01 /* TKInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKInputView.h; sourceTree = "<group>"; };
 		C224440B9287CD459FE6307AB43F38CD /* Pods-TKiOSUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKiOSUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2BF29180342A87163A3EB51FD86E0DF /* UIViewController+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TKAdd.m"; sourceTree = "<group>"; };
+		C376385A4A4D9014801AE66D454ED557 /* UIImage+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+TKAdd.h"; sourceTree = "<group>"; };
 		CD605FD44213641C2127753212B244FB /* Pods-TKiOSUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKiOSUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D02AC568812EF601E1534D49480513BE /* TKiOSUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKiOSUtils.debug.xcconfig; sourceTree = "<group>"; };
+		DB4AB119096113F90E1C9633F2108E4B /* UIButton+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TKAdd.m"; sourceTree = "<group>"; };
+		DCFCBC657D27DCC6A81AE3AB685B0F2D /* TKiOSUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKiOSUtils-prefix.pch"; sourceTree = "<group>"; };
 		DE005A98473E60347874A8BA2C50E1F5 /* Pods-TKiOSUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKiOSUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DEF08106D4903CDB854F80594B2746AE /* Pods-TKiOSUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKiOSUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E0A3B7D8843671B959C83AAEC8F027EA /* TKiOSUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKiOSUtils-prefix.pch"; sourceTree = "<group>"; };
 		E78ECFD85A1A7825B1D1A418073B5528 /* Pods-TKiOSUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKiOSUtils_Tests-dummy.m"; sourceTree = "<group>"; };
-		E7B6C8D3F83EC327B18AB3DD842AA466 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TKiOSUtils/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		EB716C312DDF5AB796D36641E6E10121 /* Pods-TKiOSUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKiOSUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8A23685C090CE76817571F56674A6F /* TKInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKInputView.m; sourceTree = "<group>"; };
+		EE0F4F16FD631FDB18F5D223719E18FA /* NSObject+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TKAdd.m"; sourceTree = "<group>"; };
 		EEDB0751A2F0155272B4EDDD2A1CE27A /* Pods-TKiOSUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKiOSUtils_Example-Info.plist"; sourceTree = "<group>"; };
-		F3C9D6F373AAA34E75A983379851AE08 /* TKiOSUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKiOSUtils-umbrella.h"; sourceTree = "<group>"; };
+		F93AC0E32108DE9BF35458B0DFA3DFC6 /* TKiOSUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKiOSUtils-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C74A3E48CF77726530D86AD73798CF4B /* Frameworks */ = {
+		3651D0B2E995FE412644E4739355C872 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722AA62C7D35744D206EECD1BD9938FB /* Foundation.framework in Frameworks */,
+				75652597C41F33400D42581651B25354 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,22 +140,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20F3563E9C36117EFC1882F92807035F /* Development Pods */ = {
+		035D0AFE51AC357769E95E1D0E011A24 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4DFFD4244A84E5D8661A20B4EF2DBCB3 /* TKiOSUtils */,
+				8DB57B85589DFBFFB921BCAF15F556EE /* TKiOSUtils */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2A5AF243F296A6BABDFF2EF0F0A5F49B /* Pod */ = {
+		04CE5E61AFDB1DC0ADA252B4A373BAF8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A4A7B74610789C8E0CAAA79589E094F1 /* LICENSE */,
-				243D711984BAD1B68B171B85A0734ECF /* README.md */,
-				A662D89587EB788F757A06C52FFEE489 /* TKiOSUtils.podspec */,
+				4EB7239A96CED0A20DDB3356D9CAEF5D /* InputView */,
 			);
-			name = Pod;
+			name = Views;
+			path = TKiOSUtils/Classes/Views;
+			sourceTree = "<group>";
+		};
+		222B313E2E0728A4A2948ABBEFE33891 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				53AC19C64EEA6E315B450FFA016C898A /* NSDate+TKAdd.h */,
+				7FB626A601BB62BA4EED1D8BE95AF22F /* NSDate+TKAdd.m */,
+				1F34451EBC82167E482E9B2694D6A4B3 /* NSObject+TKAdd.h */,
+				EE0F4F16FD631FDB18F5D223719E18FA /* NSObject+TKAdd.m */,
+				5950924B2F325C9F9F08D91B6A6E1080 /* NSString+TKAdd.h */,
+				ABF0BF0FB6710921006835456A572525 /* NSString+TKAdd.m */,
+				A27CD60FF0048D6B104A61B04EAFB6FE /* TKUnicode.h */,
+				8C349723E517963CB48A217E19EB32A3 /* TKUnicode.m */,
+			);
+			name = Foundation;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		314AEE6AE16BADD6BB6F4D76FA33CE8A /* Pods-TKiOSUtils_Tests */ = {
@@ -134,15 +189,29 @@
 			path = "Target Support Files/Pods-TKiOSUtils_Tests";
 			sourceTree = "<group>";
 		};
-		4DFFD4244A84E5D8661A20B4EF2DBCB3 /* TKiOSUtils */ = {
+		31F1176CD3B01A5853971730B347AF5F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7B6C8D3F83EC327B18AB3DD842AA466 /* ReplaceMe.m */,
-				2A5AF243F296A6BABDFF2EF0F0A5F49B /* Pod */,
-				9290781F871EE1786A87154EBE162A4A /* Support Files */,
+				A4C4025D11AC3DD249030EFFBF971BD3 /* TKiOSUtils.modulemap */,
+				0B7EB6EADF7DDEF8517A2F1729D2157C /* TKiOSUtils-dummy.m */,
+				F93AC0E32108DE9BF35458B0DFA3DFC6 /* TKiOSUtils-Info.plist */,
+				DCFCBC657D27DCC6A81AE3AB685B0F2D /* TKiOSUtils-prefix.pch */,
+				771C5BE7FFE607A5491B58A3BF6EA458 /* TKiOSUtils-umbrella.h */,
+				77EBD2CA5C2CAAD9FAA54A758E459954 /* TKiOSUtils.debug.xcconfig */,
+				122B12278A7F1E3ACA2B2CCDBA74474B /* TKiOSUtils.release.xcconfig */,
 			);
-			name = TKiOSUtils;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKiOSUtils";
+			sourceTree = "<group>";
+		};
+		4EB7239A96CED0A20DDB3356D9CAEF5D /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				C0DEDED4530769269369923A2B154E01 /* TKInputView.h */,
+				ED8A23685C090CE76817571F56674A6F /* TKInputView.m */,
+			);
+			name = InputView;
+			path = InputView;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -153,19 +222,45 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9290781F871EE1786A87154EBE162A4A /* Support Files */ = {
+		810680DBBDE0CA490D78F63F8F2CFA2C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1838976A7A8A7C9C324627F4254C51EA /* TKiOSUtils.modulemap */,
-				3F4789EDDFE435575070499E3B0A1461 /* TKiOSUtils-dummy.m */,
-				8CC9E3BA6092E05061A17AA63E59E026 /* TKiOSUtils-Info.plist */,
-				E0A3B7D8843671B959C83AAEC8F027EA /* TKiOSUtils-prefix.pch */,
-				F3C9D6F373AAA34E75A983379851AE08 /* TKiOSUtils-umbrella.h */,
-				D02AC568812EF601E1534D49480513BE /* TKiOSUtils.debug.xcconfig */,
-				7AEBC7551D7BB1A2F08A93351D8F6E35 /* TKiOSUtils.release.xcconfig */,
+				5E9DFF3FABEA7C7FF4D3D20DDEA14F1C /* LICENSE */,
+				500419B9A35468B55D724941332A250B /* README.md */,
+				913DF6C9EA99093CF29E29314986124D /* TKiOSUtils.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TKiOSUtils";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8DB57B85589DFBFFB921BCAF15F556EE /* TKiOSUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7968B69099B3A887ED7AFC4AB1F7E0F5 /* TKHeader.h */,
+				E6D476EA70B8F93D36870DE4BC1BF7D3 /* Category */,
+				810680DBBDE0CA490D78F63F8F2CFA2C /* Pod */,
+				31F1176CD3B01A5853971730B347AF5F /* Support Files */,
+				04CE5E61AFDB1DC0ADA252B4A373BAF8 /* Views */,
+			);
+			name = TKiOSUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9611C95B64FCA70688A3F66BAF2C0531 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				12948852F276CF35D4F364F693E57E0E /* UIButton+TKAdd.h */,
+				DB4AB119096113F90E1C9633F2108E4B /* UIButton+TKAdd.m */,
+				B8B71FC72A08FDECDDBC45B54F3B3AEF /* UIColor+TKAdd.h */,
+				24C2BF851CD8744D80013A6DA57229FB /* UIColor+TKAdd.m */,
+				C376385A4A4D9014801AE66D454ED557 /* UIImage+TKAdd.h */,
+				BB0FF4AC09E869A00356D2A6F6CF1A6A /* UIImage+TKAdd.m */,
+				0A7ABDC6869D0506AC037B438234E956 /* UIView+TKAdd.h */,
+				272580DC99938D9E02681941020235F9 /* UIView+TKAdd.m */,
+				880E8B7F4954EABA27CDE843DA3C7A76 /* UIViewController+TKAdd.h */,
+				C2BF29180342A87163A3EB51FD86E0DF /* UIViewController+TKAdd.m */,
+			);
+			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		C4017BE37B9F54D633BA4D260F7965FB /* Pods-TKiOSUtils_Example */ = {
@@ -189,7 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				20F3563E9C36117EFC1882F92807035F /* Development Pods */,
+				035D0AFE51AC357769E95E1D0E011A24 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F4F635E346BB5CB20C7C1F879DEBA625 /* Products */,
 				FC9CAAA7DFB013A54516725B18DDD16D /* Targets Support Files */,
@@ -202,6 +297,16 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6D476EA70B8F93D36870DE4BC1BF7D3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				222B313E2E0728A4A2948ABBEFE33891 /* Foundation */,
+				9611C95B64FCA70688A3F66BAF2C0531 /* UIKit */,
+			);
+			name = Category;
+			path = TKiOSUtils/Classes/Category;
 			sourceTree = "<group>";
 		};
 		F4F635E346BB5CB20C7C1F879DEBA625 /* Products */ = {
@@ -234,11 +339,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAC3C7153A94E09F6A68154183068E20 /* Headers */ = {
+		0D2EE9DD6DF41850F4E798A0A7B39CB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6BF7E25629070CB40865155D15274A /* TKiOSUtils-umbrella.h in Headers */,
+				73C81067396F376F51E57149C67D2A58 /* NSDate+TKAdd.h in Headers */,
+				04A208C9498F4D06D22B905B1454F261 /* NSObject+TKAdd.h in Headers */,
+				9510584C2A02253E43769A0EF688F451 /* NSString+TKAdd.h in Headers */,
+				7908DEBA03A7643D71AC7E9471A2978E /* TKHeader.h in Headers */,
+				7FACAF0EF467447CE4EFF40976B01758 /* TKInputView.h in Headers */,
+				553365AF9B85406D8F7483EB0F7B4188 /* TKiOSUtils-umbrella.h in Headers */,
+				57728771C84AC2374AFC7B8ED9448239 /* TKUnicode.h in Headers */,
+				B936E6545355DE0AFB734ABF9FC2BBAE /* UIButton+TKAdd.h in Headers */,
+				51BF4541CE3F2FD8FADFD936FEAC7ADC /* UIColor+TKAdd.h in Headers */,
+				4F293C20E514D2DA0E4FD3C70B7F88E9 /* UIImage+TKAdd.h in Headers */,
+				C5EC515D8789B76A5CAF14E262510394 /* UIView+TKAdd.h in Headers */,
+				674E56850A2FCDBD21F5A89B74D89E56 /* UIViewController+TKAdd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +381,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E7B36AE1E8F0CCD55C00EC8EF1E48219 /* PBXTargetDependency */,
+				15B4C4F9AE3E1FAFAC70C0A666F44990 /* PBXTargetDependency */,
 			);
 			name = "Pods-TKiOSUtils_Tests";
 			productName = Pods_TKiOSUtils_Tests;
@@ -284,7 +400,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0D375A0CBECF27799450E3B463A87808 /* PBXTargetDependency */,
+				AF86A70DADDDADAB6EEFB7BE67D62F9E /* PBXTargetDependency */,
 			);
 			name = "Pods-TKiOSUtils_Example";
 			productName = Pods_TKiOSUtils_Example;
@@ -293,12 +409,12 @@
 		};
 		ECEE479CA9FE763DF2F02323B7AAFE5F /* TKiOSUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 923A4C53754632E2F5FF95F20A037DD8 /* Build configuration list for PBXNativeTarget "TKiOSUtils" */;
+			buildConfigurationList = 996ACEAD27B272991003B47018F52BD6 /* Build configuration list for PBXNativeTarget "TKiOSUtils" */;
 			buildPhases = (
-				AAC3C7153A94E09F6A68154183068E20 /* Headers */,
-				342701AA216B335AD8C9464D278B6953 /* Sources */,
-				C74A3E48CF77726530D86AD73798CF4B /* Frameworks */,
-				54E9EC86D24F8484067D832501E62DFC /* Resources */,
+				0D2EE9DD6DF41850F4E798A0A7B39CB0 /* Headers */,
+				BA94CF4FB6993B92F865BBB5B7D382E7 /* Sources */,
+				3651D0B2E995FE412644E4739355C872 /* Frameworks */,
+				29E05F46C503FBE4D4DC18126C21C8BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +455,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		531961B2F46FB0C8DEAD8EEDAAC94BC4 /* Resources */ = {
+		29E05F46C503FBE4D4DC18126C21C8BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54E9EC86D24F8484067D832501E62DFC /* Resources */ = {
+		531961B2F46FB0C8DEAD8EEDAAC94BC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +479,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		342701AA216B335AD8C9464D278B6953 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05901CD4AD471C8B003A700651F74D64 /* ReplaceMe.m in Sources */,
-				9B49C56E363B6FEBF72C88FC129860F1 /* TKiOSUtils-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6DBA060FAB346CB5A7A69B5AE535ACD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68E3129D5DCFB3EC0BF885A8FADB160F /* Pods-TKiOSUtils_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA94CF4FB6993B92F865BBB5B7D382E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A498E46AD8E302239B9D0C7A3E982E4 /* NSDate+TKAdd.m in Sources */,
+				A880191A5D242AC487221E8D5702CEE8 /* NSObject+TKAdd.m in Sources */,
+				B90EBABD853AD4B1AAE31D1E90893624 /* NSString+TKAdd.m in Sources */,
+				38B16C6D2C609CA3931CD8793438B763 /* TKInputView.m in Sources */,
+				F6C4057846D2949FE3AF763D168DFFB9 /* TKiOSUtils-dummy.m in Sources */,
+				DFA127194FE2F4EB3DDE06D856D29DB1 /* TKUnicode.m in Sources */,
+				0DA1A9FFA5ADFEC17C9894E281BB2788 /* UIButton+TKAdd.m in Sources */,
+				8F0627918F761015BA5D44D0F3FBD91B /* UIColor+TKAdd.m in Sources */,
+				F940F0FFA6D3A004D6BE137414DDFB12 /* UIImage+TKAdd.m in Sources */,
+				66C5BCD7A233BDD927AC80CC15E4250F /* UIView+TKAdd.m in Sources */,
+				E2AB5B01C088B88C014D2A9FF04DF1D0 /* UIViewController+TKAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,82 +516,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D375A0CBECF27799450E3B463A87808 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TKiOSUtils;
-			target = ECEE479CA9FE763DF2F02323B7AAFE5F /* TKiOSUtils */;
-			targetProxy = 9EF5932029F046E430CC10DAE44ACF61 /* PBXContainerItemProxy */;
-		};
-		E7B36AE1E8F0CCD55C00EC8EF1E48219 /* PBXTargetDependency */ = {
+		15B4C4F9AE3E1FAFAC70C0A666F44990 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TKiOSUtils_Example";
 			target = AE203622D0320240F23B5796FEF26634 /* Pods-TKiOSUtils_Example */;
-			targetProxy = 4043062C43256D51D1DF844E6947C9C9 /* PBXContainerItemProxy */;
+			targetProxy = B28D3C212C537D9C4E15D5DE4FB778F3 /* PBXContainerItemProxy */;
+		};
+		AF86A70DADDDADAB6EEFB7BE67D62F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKiOSUtils;
+			target = ECEE479CA9FE763DF2F02323B7AAFE5F /* TKiOSUtils */;
+			targetProxy = 3DE479317A9AB5C3F59220E0FD9B866F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11BAC997EAF02E6617E7EB394F336B70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D02AC568812EF601E1534D49480513BE /* TKiOSUtils.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TKiOSUtils/TKiOSUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils.modulemap";
-				PRODUCT_MODULE_NAME = TKiOSUtils;
-				PRODUCT_NAME = TKiOSUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1E624207C2998A9AD2742FAF06305720 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AEBC7551D7BB1A2F08A93351D8F6E35 /* TKiOSUtils.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TKiOSUtils/TKiOSUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils.modulemap";
-				PRODUCT_MODULE_NAME = TKiOSUtils;
-				PRODUCT_NAME = TKiOSUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -599,6 +663,36 @@
 			};
 			name = Release;
 		};
+		8ED956A823EC3ED778BD08A7E677F719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EBD2CA5C2CAAD9FAA54A758E459954 /* TKiOSUtils.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKiOSUtils/TKiOSUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils.modulemap";
+				PRODUCT_MODULE_NAME = TKiOSUtils;
+				PRODUCT_NAME = TKiOSUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		BD8B0F9280B83E9E67AEB835C0C839AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB716C312DDF5AB796D36641E6E10121 /* Pods-TKiOSUtils_Example.debug.xcconfig */;
@@ -725,6 +819,37 @@
 			};
 			name = Release;
 		};
+		E2B26CFB43C201FC28852C5C406A0FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122B12278A7F1E3ACA2B2CCDBA74474B /* TKiOSUtils.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKiOSUtils/TKiOSUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKiOSUtils/TKiOSUtils.modulemap";
+				PRODUCT_MODULE_NAME = TKiOSUtils;
+				PRODUCT_NAME = TKiOSUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -746,11 +871,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		923A4C53754632E2F5FF95F20A037DD8 /* Build configuration list for PBXNativeTarget "TKiOSUtils" */ = {
+		996ACEAD27B272991003B47018F52BD6 /* Build configuration list for PBXNativeTarget "TKiOSUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11BAC997EAF02E6617E7EB394F336B70 /* Debug */,
-				1E624207C2998A9AD2742FAF06305720 /* Release */,
+				8ED956A823EC3ED778BD08A7E677F719 /* Debug */,
+				E2B26CFB43C201FC28852C5C406A0FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
